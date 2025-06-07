@@ -1,0 +1,57 @@
+:root {
+    font-family: 'Nano_Sans', sans-serif;
+    background-color: #0C1A1A;
+    color: #6ACFC7;
+}
+
+body {margin: 0;}
+h1,h2,h3 {color:white;}
+ul {list-style-type: none;}
+
+a {
+    text-decoration: none;
+    color: #178582;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.categories h1 {
+    align-items: center;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.categories ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    align-items: center;
+    text-align: center;
+}
+
+.main-content {
+    text-align: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.button {
+    margin-top : 8px;
+}
+
+.zoo-table {
+    display: grid;
+    place-items: center;
+}
+
+.error {
+    color: rgb(136, 56, 56);
+}
+

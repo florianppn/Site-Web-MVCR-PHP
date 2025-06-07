@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta name="author" content="Florian Pépin">
+    <meta charset="UTF-8">
+    <title><?php echo 'ZooLand | ' . $this->title; ?></title>
+    <link rel="icon" type="image/x-icon" href="/src/asset/logo/zooland.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style/style.css">
+  </head>
+  <body>
+    <nav class="categories">
+      <h1><?php echo $this->title; ?></h1>
+      <ul>
+        <?php
+          foreach($this->menu as $url => $texte) {
+            echo "<li><a href=\"$url\">$texte</a></li>";
+          }
+        ?>
+      </ul>
+    </nav>
+    <div class="main-content"><?php echo $this->content; ?></div>
+  </body>
+</html>
