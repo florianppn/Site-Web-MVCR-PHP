@@ -47,7 +47,7 @@ Ce projet est sous licence [MIT]("./LICENSE.md").
 
 ![accueil](./screenshots/accueil.png)
 
-![formulaire](./screenshots/formulaire.png)
+![formulaire](./screenshots/zooland.png)
 
 ## Crédits des images
 
