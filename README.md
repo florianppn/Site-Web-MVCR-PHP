@@ -14,7 +14,7 @@ Le but de ce projet est d'apprendre à maîtriser les bases de l'architecture MV
 ## Comment lancer le site web
 
 + Pour démarrer le site en local sous Windows 11, voici les étapes à suivre :
-    + Téléchargez et installez la dernière version de [PHP.zip](https://windows.php.net/download/) (non thread safe).
+    + Téléchargez et installez la dernière version de [PHP](https://windows.php.net/download/) (non thread safe).
     + Décompressez le paquet .zip et mettez le dossier sur votre lecteur : `C:\`.
     + Dans ce paquet, il faut dupliquer le fichier `php.ini-development` et le renommer `php.ini`.
     + Ouvrez le fichier php.ini et ajoutez la ligne `extension_dir = "ext"`.
