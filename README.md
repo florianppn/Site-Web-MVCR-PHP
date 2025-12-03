@@ -31,7 +31,7 @@ Le but de ce projet est d'apprendre à maîtriser les bases de l'architecture MV
     + À la racine du projet web, ouvrez un terminal et tapez la commande `php -S localhost:8080`.
     + Ouvrir un navigateur web et aller à l'url `localhost:8080/site.php`.
 
-Il est également possible de démarrer le site web via un serveur HTTP comme [Apache2](https://httpd.apache.org/docs/).
+Il est également possible de démarrer le site web via un serveur HTTP/HTTPS comme [Apache2](https://httpd.apache.org/docs/).
 
 ## Contribuer
 
